@@ -5,7 +5,6 @@ import Payments from "../../../assets/images/payments.png"
 import Leakages from "../../../assets/images/leakages.png"
 import { AutomateLayoutCard } from "../../../components/global/automatelayoutcard"
 
-
 const AUTOMATE_IDEAS = [
     {
         id: randomId(),
