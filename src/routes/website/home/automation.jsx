@@ -3,6 +3,8 @@ import Insights from "../../../assets/images/insights.png"
 import Transparency from "../../../assets/images/transparency.png"
 import Payments from "../../../assets/images/payments.png"
 import Leakages from "../../../assets/images/leakages.png"
+import { AutomateLayoutCard } from "../../../components/global/automatelayoutcard"
+
 
 const AUTOMATE_IDEAS = [
     {
@@ -44,52 +46,14 @@ export const Automation = () => {
             <main className="w-full flex flex-col gap-14 md:gap-20">
                 {
                     AUTOMATE_IDEAS.map((idea, index) => (
-                        <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6" data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'}>
-                            {
-                                index % 2 ?
-                                    <div className="w-full lg:w-1/2 flex items-center justify-center">
-                                        <img
-                                            src={idea.image}
-                                            loading="lazy"
-                                            alt="automation-figure"
-
-                                        />
-                                    </div>
-                                    :
-                                    null
-                            }
-                            <article className="w-full lg:w-1/2 flex flex-col gap-8">
-                                <h1 className="text-2xl md:text-4xl font-extrabold text-primary-200 w-full md:w-3/4 md:leading-[3rem]">
-                                    {idea.heading}
-                                </h1>
-                                <p className='text-base md:text-xl'>
-                                    {idea.subheading}
-                                </p>
-                            </article>
-
-                            {
-                                !index % 2 ?
-                                    <div className="w-full lg:w-1/2 flex items-center justify-center">
-                                        <img
-                                            src={idea.image}
-                                            loading="lazy"
-                                            alt="automation-figure"
-
-
-                                        />
-                                    </div>
-                                    :
-                                    null
-                            }
-                        </div>
-                        // <AutomateLayoutCard
-                        //     key={idea.id}
-                        //     heading={idea.heading}
-                        //     subheading={idea.subheading}
-                        //     image={idea.image}
-                        //     swap={index % 2}
-                        //     dataAos={index % 2 === 0 ? 'fade-right' : 'fade-left'}  // alternate AOS animation
-                        // />
+                        <AutomateLayoutCard
+                            key={idea.id}
+                            heading={idea.heading}
+                            subheading={idea.subheading}
+                            image={idea.image}
+                            swap={index % 2}
+                            dataAos={index % 2 === 0 ? 'fade-right' : 'fade-left'}  // alternate AOS animation
+                        />
                     ))
                 }
             </main>
