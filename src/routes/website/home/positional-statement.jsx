@@ -1,6 +1,6 @@
 import { AUTOMATED_LISTS } from '../../../components/constants/automatedlists'
 import { AutomateIcon, CashIcon, ReconCileIcon, WorkFlowIcon } from "../../../assets/generatedicons/generated";
-import { StatementCard } from '../../../components/global/statementCard';
+// import { StatementCard } from '../../../components/global/statementCard';
 import '../../../index.css'
 
 const iconMap = {
@@ -29,7 +29,7 @@ export const PositionalStatement = () => {
 
             <section className="w-full enable-animation overflow-hidden">
                 <div className="marquee">
-                    <ul className="marquee__content flex items-center gap-6">
+                    {/* <ul className="marquee__content flex items-center gap-6">
                         {AUTOMATED_LISTS?.map((item) => (
                             <StatementCard
                                 key={item.id}
@@ -39,7 +39,7 @@ export const PositionalStatement = () => {
                                 icon={iconMap[item.icon]}
                             />
                         ))}
-                    </ul>
+                    </ul> */}
 
                     {/* <ul aria-hidden="true" className="marquee__content flex items-center gap-6">
                         {AUTOMATED_LISTS?.map((item) => (
