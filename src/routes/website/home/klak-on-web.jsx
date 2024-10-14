@@ -1,5 +1,5 @@
 // import { BlogCard } from "../../../components/global/blogcard"
-import { BlogBanner } from "../../../components/global/blogbanner"
+// import { BlogBanner } from "../../../components/global/blogbanner"
 import Blog1 from "../../../assets/images/blog.jpg"
 import Punch from "../../../assets/images/news/punch.png"
 import Guardian from "../../../assets/images/news/guardian.png"
