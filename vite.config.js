@@ -14,16 +14,4 @@ export default defineConfig({
   server: {
     port: 5173
   },
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-  build: {
-    sourcemap: false,
-    outDir: 'dist',
-    rollupOptions: {
-      input: ['./index.html', './src/main.jsx'],
-    },
-  },
 })
