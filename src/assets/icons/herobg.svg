@@ -1,0 +1,22 @@
+<svg width="1878" height="983" viewBox="0 0 1878 983" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.5" filter="url(#filter0_f_2247_400)">
+<mask id="mask0_2247_400" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="274" y="274" width="1330" height="435">
+<ellipse cx="939" cy="491.5" rx="665" ry="217.5" transform="rotate(180 939 491.5)" fill="#6B0653"/>
+</mask>
+<g mask="url(#mask0_2247_400)">
+<ellipse cx="1236.3" cy="629.771" rx="367.698" ry="120.222" transform="rotate(180 1236.3 629.771)" fill="#E8BA07"/>
+<ellipse cx="361.706" cy="122.422" rx="361.706" ry="122.422" transform="matrix(-0.998629 0.052344 -0.21606 -0.97638 973.418 730.367)" fill="#FBF9F0"/>
+<ellipse cx="868.602" cy="459.073" rx="363.299" ry="120.222" transform="rotate(180 868.602 459.073)" fill="#4CAF50"/>
+<ellipse cx="1450.64" cy="446.226" rx="363.299" ry="120.222" transform="rotate(180 1450.64 446.226)" fill="#E1F038"/>
+<ellipse cx="320.51" cy="445.614" rx="363.299" ry="120.222" transform="rotate(180 320.51 445.614)" fill="#FC0FC0"/>
+<ellipse cx="872.373" cy="325.698" rx="363.299" ry="120.222" transform="rotate(180 872.373 325.698)" fill="#FC0FC0"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_2247_400" x="0" y="0" width="1878" height="983" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="137" result="effect1_foregroundBlur_2247_400"/>
+</filter>
+</defs>
+</svg>
