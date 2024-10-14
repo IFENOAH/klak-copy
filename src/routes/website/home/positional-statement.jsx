@@ -41,7 +41,7 @@ export const PositionalStatement = () => {
                         ))}
                     </ul>
 
-                    <ul aria-hidden="true" className="marquee__content flex items-center gap-6">
+                    {/* <ul aria-hidden="true" className="marquee__content flex items-center gap-6">
                         {AUTOMATED_LISTS?.map((item) => (
                             <StatementCard
                                 key={item.id}
@@ -51,7 +51,7 @@ export const PositionalStatement = () => {
                                 icon={iconMap[item.icon]}
                             />
                         ))}
-                    </ul>
+                    </ul> */}
                 </div>
             </section>
         </div>

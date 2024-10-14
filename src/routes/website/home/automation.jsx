@@ -43,7 +43,7 @@ export const Automation = () => {
                 </h1>
             </header>
 
-            <main className="w-full flex flex-col gap-14 md:gap-20">
+            {/* <main className="w-full flex flex-col gap-14 md:gap-20">
                 {
                     AUTOMATE_IDEAS.map((idea, index) => (
                         <AutomateLayoutCard
@@ -56,7 +56,7 @@ export const Automation = () => {
                         />
                     ))
                 }
-            </main>
+            </main> */}
         </div>
     )
 }
